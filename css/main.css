@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.7;
+  opacity: 1;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -70,7 +70,7 @@
     .menu .nav-item .nav-link {
       display: inline-block;
       position: relative;
-      font-size: 30px;
+      font-size: 20px;
       text-transform: uppercase;
       padding: 0.5rem 0;
       font-weight: 400;
@@ -100,7 +100,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Monserrat', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
@@ -124,7 +124,7 @@ h3 {
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
-    font-size: 4rem; }
+    font-size: 3rem; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -148,7 +148,7 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 50px); }
   main .icons {
-    margin-top: 1rem; }
+    margin-top: 3rem; }
     main .icons a {
       padding: 0.5rem; }
       main .icons a:hover {
@@ -182,7 +182,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #6495ED 10px solid; }
+    border-bottom: #6495ED 5px solid; }
 
 .projects {
   display: grid;
@@ -202,10 +202,11 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
+  margin-top: 3rem; }
   .boxes div {
-    font-size: 1.5rem;
-    border: 2px white solid;
+    font-size: 1rem;
+    border: 1px white solid;
+    border-radius: 25px;
     padding: 1.5rem 2rem;
     margin-bottom: 3rem;
     transition: all 1s ease-out; }
