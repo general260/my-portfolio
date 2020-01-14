@@ -11,7 +11,7 @@ body {
     color: set-text-color($primary-color);
     height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Monserrat', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
 }
 
@@ -23,7 +23,7 @@ h3 {
     font-weight: 400;
 
     &.lg-heading {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     &.sm-heading {
@@ -55,7 +55,7 @@ main {
     min-height: calc(100vh - 50px);
 
     .icons {
-        margin-top: 1rem;
+        margin-top: 3rem;
 
         a {
             padding: 0.5rem;
@@ -111,7 +111,7 @@ main {
     .job {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
-        border-bottom: $secondary-color 10px solid;
+        border-bottom: $secondary-color 5px solid;
     }
 }
 
@@ -140,11 +140,12 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
 
     div {
-        font-size: 1.5rem;
-        border: 2px white solid;
+        font-size: 1rem;
+        border: 1px white solid;
+        border-radius: 25px;
         padding: 1.5rem 2rem;
         margin-bottom: 3rem;
         @include easeOut;
